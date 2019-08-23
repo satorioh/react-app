@@ -18,7 +18,7 @@ class TodoList extends Component {
           {/*下面是一个输入框*/}
           <label htmlFor="inputArea">输入</label>
           <input id="inputArea" className='input' value={this.state.inputValue} onChange={this.handleInputValue}/>
-          <button onClick={this.handleClick}>点击看看提交</button>
+          <button onClick={this.handleClick}>点提交</button>
         </div>
         <ul>
           {this.getTodoItem()}
