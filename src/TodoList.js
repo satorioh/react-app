@@ -14,15 +14,7 @@ class TodoList extends Component {
     render() {
     return (
       <Fragment>
-        <div>
-          {/*下面是一个输入框*/}
-          <label htmlFor="inputArea">输入</label>
-          <input id="inputArea" className='input' value={this.state.inputValue} onChange={this.handleInputValue}/>
-          <button onClick={this.handleClick}>点看提交</button>
-        </div>
-        <ul>
-          {this.getTodoItem()}
-        </ul>
+        <div>hello world!!</div>
       </Fragment>
     );
   }
