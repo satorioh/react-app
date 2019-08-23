@@ -7,18 +7,18 @@ class TodoList extends Component {
     super(props)
     this.state = {
       inputValue:'',
-      list:[]
+      list:[],
     }
   }
 
-  render() {
+    render() {
     return (
       <Fragment>
         <div>
           {/*下面是一个输入框*/}
           <label htmlFor="inputArea">输入</label>
           <input id="inputArea" className='input' value={this.state.inputValue} onChange={this.handleInputValue}/>
-          <button onClick={this.handleClick}>提交</button>
+          <button onClick={this.handleClick}>点击提交</button>
         </div>
         <ul>
           {this.getTodoItem()}
