@@ -209,6 +209,8 @@ class TodoList extends Component {
 
     render() {
         console.log(this.nestedToFlat(this.state.units))
+        console.log("ffff)
+        console.log(this.nestedToFlat(this.state.units))
         return <div>bugfix test</div>;
   }
 
