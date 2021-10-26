@@ -209,7 +209,9 @@ class TodoList extends Component {
 
     render() {
         console.log(this.nestedToFlat(this.state.units))
-        return <div>hotfix test2</div>;
+        console.log(this.nestedToFlat(this.state.units))
+        return <div>hoix test2</div>;
+
   }
 
     nestedToFlat = (children) => {
